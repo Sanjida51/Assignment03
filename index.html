@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Item</title>
+     <link rel="shortcut icon" type="image/x-icon" href="image/foodlogo.jpg">
+    <style>
+    div{
+        background-color: #f5d9dc;  
+        }
+    label{
+            color:aquamarine;
+        }
+    #F{
+            color: aliceblue;
+            background-color: rgb(0,0,0);
+        }
+    #C{
+            color: black;
+            background-color: lightpink;
+       }
+    #p1{
+            color: aliceblue;
+            background-color: brown;
+       }
+     #p2{
+            color: aliceblue;
+            background-color: deeppink;
+       }
+    #p3{
+            color: aliceblue;
+            background-color: deepskyblue;
+       }
+    #D{
+            color: aliceblue;
+            background-color: black;
+        }
+    #p5{
+            color: aliceblue;
+            background-color: orchid;
+       }
+    #p6{
+            color: aliceblue;
+            background-color: orange;
+       }
+     legend{
+            text-shadow: 2px 2px black;
+            color: rgb(143, 62, 180);
+            font-size: 40px;
+        }
+    .S{
+            background-image: url(image/fooditem.jpg);
+            padding-top: 2%;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+ <div>
+      <div>
+  <h1 align="center" id="C">Choose Your Favourite Food Item</h1>
+  <h2>INFO</h2>
+  <p>My name is Sanjida Akter and id(WB2302033).</p>
+  </div>
+  <hr>
+  <div>
+      <a href="#AA">Contact With Us</a>
+  </div>
+ <div>
+      <h3  align="center" id="F">Fast Foods</h3>
+  <ul type="disc">
+      <li> <a href="#Fa">Fast Foods</a></li>
+  </ul>
+ </div>
+   <div>
+       <div>
+       <ul type="none">
+       <li><dl>
+        <dt> <a href="#p1">Burger</a></dt>
+        <dd>Do you like burgers?Give the answer here and short note it.(everyone's answer must be unique).</dd>
+    </dl></li>
+   </ul>
+   </div>
+   <div>
+       <ul type="none">
+       <li><dl>
+        <dt> <a href="#p2">Pizza</a></dt>
+        <dd>Do you like pizza?Give the answer here and short note it.(everyone's answer must be unique).</dd>
+    </dl></li>
+   </ul>
+   </div>
+    <div>
+       <ul type="none">
+       <li><dl>
+        <dt> <a href="#p3">French Fries</a></dt>
+        <dd>Do you like french fries?Give the answer here and short note it.(everyone's answer must be unique).</dd>
+    </dl></li>
+   </ul>
+   </div>
+   </div>
+   <hr>
+  <div id="Fa">
+      <img src="image/fast food.jpg" alt="Fast Food" width="460" height="345">
+  </div>
+  <div>
+      <h3 align="center" id="p1">Burger</h3>
+      <img src="image/burger.jpg" alt="Burger" width="400" height="300">
+      <img src="image/burger1.jpg" alt="Burger1" width="400" height="300">
+  </div>
+  <div>
+      <h3 align="center" id="p2">Pizza</h3>
+      <img src="image/pizza.jpg" alt="Pizza" width="400" height="300">
+      <img src="image/pizza1.jpg" alt="Pizza1" width="400" height="300">
+  </div>
+  <div>
+      <h3 align="center" id="p3">French Fries</h3>
+      <img src="image/french fry.jpg" alt="French Fry" width="400" height="300">
+      <img src="image/french fry1.jpg" alt="French Fry1" width="400" height="300">
+  </div>
+  <div>
+      <h3  align="center" id="D">Deserts</h3>
+      <ul type="disc">
+      <li> <a href="#D">Deserts</a></li>
+  </ul>
+ </div>
+   <div>
+       <div>
+       <ul type="none">
+       <li><dl>
+        <dt> <a href="#p5">Chocolate cake</a></dt>
+        <dd>Do you like chocolate cake?Give the answer here and short note it.(everyone's answer must be unique).</dd>
+    </dl></li>
+   </ul>
+   </div>
+   <div>
+       <ul type="none">
+       <li><dl>
+        <dt> <a href="#p6">Pudding</a></dt>
+        <dd>Do you like pudding?Give the answer here and short note it.(everyone's answer must be unique).</dd>
+    </dl></li>
+   </ul>
+  </div>
+   </div>
+  <hr>
+  <div>
+      <img src="image/desert.jpg" alt="Deserts" width="460" height="345">
+  </div>
+   <div>
+      <h3 align="center" id="p5">Chocolate cake</h3>
+      <img src="image/chocolatecake.jpg" alt="Cakes" width="400" height="300">
+      <img src="image/chocolatecake1.jpg" alt="Cakes" width="400" height="300">
+  </div>
+  <div>
+      <h3 align="center" id="p6">Pudding</h3>
+      <img src="image/pudding.jpg" alt="Pudding" width="400" height="300">
+      <img src="image/pudding1.jpg" alt="pudding" width="400" height="300">
+  </div>
+   <div id="AA">
+         <form action="action.php" method="get" target="_blank">
+        <fieldset align="center" class="S">
+        <legend>Contact form</legend>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" autofocus placeholder="Enter your first name" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" ><br>
+        <label for="mail">Email:</label><br>
+        <input type="email" id="mail" name="mail" placeholder="example@gmail.com" required><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="pass" required><br>
+        <label for="num">Contact Number:</label><br>
+        <input type="tel" id="num" name="num"><br>
+        <label for="daytime">Date of Birth:</label><br>
+        <input type="datetime-local" id="daytime" name="birthdaytime"><br>
+        <label for="">Gender:</label><br>
+        <input type="radio" name="gender">
+        <label for="">Male:</label>
+        <input type="radio" name="gender">
+        <label for="">Female:</label>
+        <input type="radio" name="gender">
+        <label for="">Others:</label><br><br>
+        <button>Submission</button>
+        </fieldset>
+    </form>
+   </div>
+  <div>
+    <h2>Question-Answer</h2>
+   <p>What is ol,ul and li in html?Write your ans here.<br>
+   <b>Ans:</b>The ol tag defines an ordered list. An ordered list can be numerical or alphabetical. The li tag is used to define each list item. Tip: Use CSS to style lists. Tip: For unordered list, use the ul tag.</p>
+   <p>What is td and th in html?Write your ans here.<br>
+    <b>Ans:</b>The Table Data Cell element. The td HTML element defines a cell of a table that contains data and The Table Header element. The th HTML element defines a cell as the header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.</p>
+   <p>Which tag defines a hyperlink in html?Write your ans here.<br>
+   <b>Ans:</b>The a tag defines a hyperlink, which is used to link from one page to another.</p>
+  </div>
+ </div>
+</body>
+</html>
+<!--
+=======================================================================================================================================
+                                             Sanjida Akter And ID:WB2302033
+=======================================================================================================================================
+Name:Sanjida Akter
+Project Name:Food Item.
+Mentor Name:Shumaita Binte Burhan
+Group:11
+-->
+                                                             
+                    
